@@ -19,7 +19,7 @@ match({varlist}) [{it:options}]
 One-to-one merge of files where user takes advantage of numerical regularity in file name
 {p 8 20 2}
 {cmdab:mergemany} {cmd:1:1}  {it: fileprefix} 
-{cmd:,} match({varlist}) {cmdab:num}{cmd:erical}({numlist}) [{it:options}]
+{cmd:,} match({varlist}) {cmdab:num:erical(}{numlist}{cmdab)} [{it:options}]
 
 {help varlist} is the match variables that uniquely identify observations. It is required.
 
